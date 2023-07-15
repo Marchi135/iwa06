@@ -13,5 +13,5 @@ if (hourOfDay === 0 && minuteOfDay === 0) {
   const startingAfterTax = salary * (1 - taxAsDecimal);
   const balance = startingAfterTax - transport - food - rent;
   
-  console.log(balance.toFixed(3));
+  console.log(balance.toFixed(2));
 }
